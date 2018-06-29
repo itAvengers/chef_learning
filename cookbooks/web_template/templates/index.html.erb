@@ -1,0 +1,8 @@
+<html>
+<title>Welcome to Chef</title>
+<h2>The hostname is <%= node['hostname'] %></h2>
+<body>
+The platform of this system is <%= node['platform'] %>.<br>
+The total memory of this system is <%= node['memory']['total'] %>.<br>
+</body>
+</html>
